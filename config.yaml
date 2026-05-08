@@ -1,4 +1,4 @@
-baseURL: /
+baseURL: https://laicos.tech/
 locale: en-us
 build:
   writeStats: true

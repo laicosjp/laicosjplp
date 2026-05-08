@@ -1,4 +1,4 @@
-name: Deploy Hugo site with Pagefind to GitHub Pages
+name: Deploy Hugo site to GitHub Pages
 
 on:
   push:
@@ -28,18 +28,18 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: "25.2.1"
+          node-version: "20"
 
       - name: Install npm dependencies
         run: npm ci
 
       - name: Build Hugo site
         run: |
-          hugo -b https://aafu.darshanbaral.com/
+          hugo --minify
           npx -y pagefind --site public
 
       - name: Add CNAME file for custom domain
-        run: echo "aafu.darshanbaral.com" > public/CNAME
+        run: echo "laicos.tech" > public/CNAME
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
