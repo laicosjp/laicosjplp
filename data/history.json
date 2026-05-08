@@ -1,0 +1,22 @@
+{
+  "title": "History",
+  "icon": "bi bi-briefcase",
+  "list": [
+    {
+      "dates": "2026-04-30",
+      "event": "Launched YouTube channel \"Hulk in Public\"",
+      "url": "https://www.youtube.com/@HulkinPublic"
+    },
+    {
+      "dates": "2026-04-22",
+      "event": "Released first product \"SuperRails\"",
+      "url": "https://super-rails.com",
+      "details": "A Rails boilerplate for solopreneurs, enabling rapid product development."
+    },
+    {
+      "dates": "2026-03-10",
+      "event": "Founded Laicos Inc. by Haruku Maniwa",
+      "details": "Established with a capital of ¥700,000."
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "title": "Company Info",
+  "icon": "bi bi-building",
+  "list": [
+    { "label": "Address", "value": "12-12, Osaka Ekimae Dai-2 Building, 1-2-2 Umeda, Kita-ku, Osaka-shi, Osaka 530-0001, Japan" },
+    { "label": "Capital", "value": "¥700,000" },
+    { "label": "Founded", "value": "March 10, 2026" },
+    { "label": "CEO", "value": "Haruku Maniwa" }
+  ]
+}

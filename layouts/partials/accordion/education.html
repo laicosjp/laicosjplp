@@ -1,0 +1,5 @@
+<ul class="my-2 ms-4 prose prose-stone dark:prose-invert max-w-none list-disc list-outside pl-6">
+  {{ range hugo.Data.education.list }}
+  <li class="marker:text-gray-700 dark:marker:text-gray-200">{{ . }}</li>
+  {{ end }}
+</ul>

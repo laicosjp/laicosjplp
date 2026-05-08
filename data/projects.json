@@ -1,0 +1,15 @@
+{
+  "title": "Projects",
+  "icon": "bi bi-kanban",
+  "list": [
+    {
+      "title": "SuperRails",
+      "url": "https://super-rails.com",
+      "description": "A Rails boilerplate for solopreneurs, enabling rapid product development."
+    },
+    {
+      "title": "LazyCafe",
+      "description": "Coming soon"
+    }
+  ]
+}
